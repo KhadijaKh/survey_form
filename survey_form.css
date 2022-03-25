@@ -1,0 +1,49 @@
+			body{
+				background-color:lightblue;
+			}
+			#title{
+				text-align:center;
+			}
+			#survey-form{
+				margin:auto;
+				width:80%;
+				
+				background-color: #f6f6f6;
+				text-align:center;
+				
+			}
+			#description{
+				text-align:center;
+				padding-top:20px;
+				padding-bottom:20xp;
+				font-size:20px;
+				
+			}
+			li{
+				margin-bottom:13px;
+				list-style-type:none;
+			}
+			input[type=text],input[type=email],input[type=number]{
+				padding:7px 10px;
+				width:30%;
+				border:1px solid lightgray;
+				}
+			
+			
+			#dropdown{
+				padding:7px 50px;
+				border:1px solid lightgray;
+				margin-right: 30%;
+				background-color:lightgray;
+			}	
+			
+			#txt{
+				width:30%;
+			}
+			
+			#submit{
+				background-color:black;
+				color:white;
+				padding:15px 30px;
+				margin-bottom:10px;
+			}

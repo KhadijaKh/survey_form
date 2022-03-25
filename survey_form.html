@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title>my second assignment</title>
+		<link rel="stylesheet" href="survey_form.css" />
+	</head>
+	<body> 
+		<h1 id="title">Survey Form</h1>
+			<form action="" id="survey-form" role="form">
+				<p id="description">let us know how we can improve freeCodeCamp</p>
+				<li> 
+					<label for="name"id="name-label">Name : </label>
+					<input type="text" required id="name" placeholder="Enter Your name" />
+				</li>
+				<li> 
+					<label for="email"id="email-label">Email : </label>
+					<input type="email" required id="email" placeholder="Enter your email" > 
+				</li>
+				<li> 
+					<label for="number"id="number-lable">number:   </label>
+					<input type="number" required id="number"placeholder="Enter your number" > <br />
+				</li>
+				<li id="dropdow"> 
+					<label for="select">which option best describs your current role ?</label>
+					<select name="" id="dropdown">
+						<option value="">student</option>
+						<option value="">teacher</option>
+						<option value="">manager</option>
+					</select>
+				</li>
+				<li id="rado"> 
+					<label for="chick" id="radio"style="padding-right: 38%;">how likly is that you recommend </label><br /><label> freeCodeCamp to a friend?</label>
+					<input type="radio" id="d" value="Definitely" /><label for="d"id="radio"style="padding-right: 27%;">Definitely</label><br />
+					<input type="radio" id="m" value="Maybe" /><label for="m"id="radio"style="padding-right: 12.5%;" >Maybe</label><br />
+				</li>
+
+				<li id="check"> 
+					<label for="chick" id="checkbox" style="padding-right: 43%;">things that should be improve in the future</label><br /><label>check all that apply</label>
+					<input type="checkbox" id="checkbox" value="front-end"  /><label for="checkbox" style="padding-right: 18%;">back-end projects</label><br />
+					<input type="checkbox" id="checkbox" value="back-end" /><label for="m"style="padding-right: 6%;" >front-end projects</label><br />
+					
+				</li>
+				<li> 
+					<textarea name="txt" id="txt" cols="30" rows="5">leave your message:</textarea>
+				</li>
+				<li> 
+					<button id="submit" >submit</button>
+				</li>
+				
+			</form>
+	</body>
+</html>
